@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  
+  <!-- Outer passport 4x6 frame hint -->
+  <rect x="76" y="86" width="360" height="240" rx="20" fill="none" stroke="#334155" stroke-width="8" stroke-dasharray="16 12"/>
+  
+  <!-- Studio Camera Body -->
+  <rect x="116" y="166" width="280" height="200" rx="36" fill="url(#amberGrad)" filter="drop-shadow(0 12px 24px rgba(0,0,0,0.3))"/>
+  
+  <!-- Camera Pentaprism top bump -->
+  <path d="M206,166 L236,126 L276,126 L306,166 Z" fill="#d97706"/>
+  <circle cx="346" cy="196" r="10" fill="#0f172a" opacity="0.6"/>
+
+  <!-- Camera Lens Outer Ring -->
+  <circle cx="256" cy="266" r="64" fill="#0f172a"/>
+  <circle cx="256" cy="266" r="54" fill="#1e293b"/>
+  <circle cx="256" cy="266" r="42" fill="#0284c7"/>
+  <circle cx="256" cy="266" r="28" fill="#0f172a"/>
+  <circle cx="244" cy="254" r="8" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Brand Typography -->
+  <text x="256" y="435" text-anchor="middle" font-family="'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="4">SAIYAD</text>
+  <text x="256" y="475" text-anchor="middle" font-family="'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" fill="#f59e0b" letter-spacing="6">PHOTO</text>
+</svg>

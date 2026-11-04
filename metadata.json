@@ -1,0 +1,10 @@
+{
+  "name": "SAIYAD Photo",
+  "description": "Professional 4x6 Passport Photo Studio app for high-resolution 300 DPI print sheets, country specifications, and instant photo export.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
